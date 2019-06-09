@@ -6,6 +6,6 @@ class Timer
   end
 
   def seconds=(seconds)
-    @time_string = "%02i:%02i:%02i" % [seconds/3600,seconds%3600/60,seconds%3600%60]
+    @time_string = "%02d:%02d:%02d" % [seconds/3600,seconds%3600/60,seconds%3600%60]
     end
 end
